@@ -46,7 +46,7 @@ def calc_membership(nearest_dt,num_class,num_Class,type_="gradual"):
 # @param nearest_dt matrix of data nearest neighobur
 # @control a dictionary of parameters 
 def calc_similiarity_degree(nearest_dt,control,num_Classs):
-    num_clas=control["num_class"]
+    num_class=control["num_class"]
     m=control["m"]
     # calculate membership of newdata to each class
     ## miu.class is a matrix (k, num.class) where k is number of neighbor
