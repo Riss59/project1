@@ -121,14 +121,9 @@ toc=time.clock()
 print(toc-tic)
 
 tic=time.clock()
+decision_table_iris=np.array(decision_table_iris)
+newdata_iris=np.array(newdata_iris)
 wynik2=C_FRNN_O_FRST(decision_table_iris,newdata_iris,control)
 toc=time.clock()
 print("FRNN",toc-tic)
 wynik2
-porownanie=pd.concat([pd.DataFrame(wynikitestow1),pd.DataFrame(wyniki_newdata)],axis=1)
-
-decision_table=decision_table_iris
-newdata=newdata_iris
-decision_table=np.array(decision_table)
-newdata=np.array(newdata_iris)
-new
