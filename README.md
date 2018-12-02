@@ -1,1 +1,1 @@
-# project1
+# Implementacja algorytmu Fuzzy KNN
